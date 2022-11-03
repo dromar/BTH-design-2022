@@ -1,9 +1,9 @@
 ---
-Title: Hobby
-Description: Page about my hobby
+Title: Utfyllnad
+Description: Utfyllnad
 ---
 
-Min hobby
+Utfyllnad
 ==================
 
-Jag har sedan innan jag kunde gå sprungit orientering. Det är en härlig sport ute i skogen med utmaningar för både kropp och knopp.
+Bra med en utfyllnadssida också! 
