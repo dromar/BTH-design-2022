@@ -1,5 +1,4 @@
 ---
-Logo: image/daro15.jpeg
 Tagline: My portfolio.
 Social:
     - title: Link till sidans github repo.
