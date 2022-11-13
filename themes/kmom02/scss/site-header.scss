@@ -1,0 +1,25 @@
+.site-header {
+    max-height: 20vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+
+}
+
+.title {
+    a {
+        font-size: 3em;
+        color: $font-color;
+        text-decoration: none;
+        text-align: center;
+        text-shadow: 2px 2px $accent-color;
+    }
+    
+    h1 {
+        margin-top: 0;
+    }
+
+}

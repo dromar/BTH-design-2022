@@ -1,0 +1,16 @@
+.footer {
+    background-color: $background-alternative-color;
+    color: $font-alternative-color;
+    display: flex;
+    justify-content: right;
+
+    a {
+        color: $font-alternative-color;
+        text-decoration: none;
+    }
+
+    a:visited {
+        color: $font-alternative-color;
+        text-decoration: none;
+    }
+}
