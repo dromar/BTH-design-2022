@@ -7,9 +7,16 @@
     "example": "example"
   },
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "stylelint \"**/*.scss\"",
-    "style": "sass kmom02/scss/style.scss kmom02/css/style.css --no-source-map",
-    "style-min": "sass kmom02/scss/style.scss kmom02/css/style.min.css --no-source-map --style compressed"
+    "watch": "sass clr/scss/style.scss:clr/css/style.css clr/scss/style-dark.scss:clr/css/style-dark.css --no-source-map --watch",
+    "watch-min": "sass clr/scss/style.scss:clr/css/style.min.css clr/scss/style-dark.scss:clr/css/style-dark.min.css --no-source-map --watch --style compressed",
+    "style": "npm run style-light && npm run style-dark",
+    "style-min": "npm run style-light-min && npm run style-dark-min",
+    "style-dark": "sass clr/scss/style-dark.scss clr/css/style-dark.css --no-source-map",
+    "style-dark-min": "sass clr/scss/style-dark.scss clr/css/style-dark.min.css --no-source-map --style compressed",
+    "style-light": "sass clr/scss/style.scss clr/css/style.css --no-source-map",
+    "style-light-min": "sass clr/scss/style.scss clr/css/style.min.css --no-source-map --style compressed"
   },
   "keywords": [],
   "author": "",

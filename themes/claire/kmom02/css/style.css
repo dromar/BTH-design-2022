@@ -6497,14 +6497,13 @@ pre code {
   display: flex;
   justify-content: center;
 }
-
-.nav li {
+.header .nav li {
   text-transform: uppercase;
 }
-.nav a {
+.header .nav a {
   text-decoration: none;
 }
-.nav a:hover {
+.header .nav a:hover {
   color: #ee6c4d;
 }
 
@@ -6516,15 +6515,14 @@ pre code {
   align-items: center;
   flex-wrap: nowrap;
 }
-
-.title a {
+.site-header .title a {
   font-size: 3em;
   color: #000;
   text-decoration: none;
   text-align: center;
   text-shadow: 2px 2px #ee6c4d;
 }
-.title h1 {
+.site-header .title h1 {
   margin-top: 0;
 }
 
@@ -6549,6 +6547,7 @@ pre code {
   color: #c8c8c8;
   display: flex;
   justify-content: right;
+  font-size: 2em;
 }
 .footer a {
   color: #c8c8c8;
