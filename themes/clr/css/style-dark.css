@@ -6528,6 +6528,10 @@ pre code {
   margin-top: 0;
 }
 
+body {
+  background-color: #1f1c1c;
+}
+
 .main {
   min-height: 70vh;
   margin-bottom: auto;
@@ -6739,7 +6743,4 @@ pre code {
   .technav {
     visibility: hidden;
   }
-}
-body {
-  background-color: #555;
 }

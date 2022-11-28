@@ -17,7 +17,8 @@
 
     h2 {
         position: absolute;
-        background-color: rgba($accent-color, 0.6);
+        background-color: rgba($background-alternative-color, 0.2);
+        color: $font-color;
         text-align: center;
         width: 100%;
         padding: 1em 2em;
@@ -26,12 +27,12 @@
     }
 
     a {
-        color: #333;
+        color: $font-color;
         text-decoration: none;
     }
 
     a:visited {
-        color: #333;
+        color: $font-color;;
     }
 
 }
@@ -137,12 +138,12 @@
         }
     
         a {
-            color: #333;
+            color: $font-color;
             text-decoration: none;
         }
     
         a:visited {
-            color: #333;
+            color: $font-color;;
         }
     
     }

@@ -11,6 +11,7 @@ html {
 p {
     font-size: $base-font-size;
     margin-bottom: $magic-number;
+    color: $font-color;
     font-family: 'Merriweather', serif;
 
 }
@@ -19,6 +20,13 @@ h1 {
     font-size: 3em;
     margin-bottom: $magic-number;
     font-family: 'Roboto', sans-serif;
+    color: $font-color;
+}
+
+h2 {
+    margin-bottom: $magic-number;
+    font-family: 'Roboto', sans-serif;
+    color: $font-color;
 }
 
 body {
@@ -30,6 +38,10 @@ body {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     margin: 0 auto;
+}
+
+a {
+    color: $font-color;
 }
 
 @media (min-width: 64em) {

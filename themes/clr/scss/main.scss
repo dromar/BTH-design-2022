@@ -1,4 +1,13 @@
+body {
+    background-color: $background-color;
+}
+
+
 .main {
     min-height: 70vh;
     margin-bottom: auto;
+}
+
+li {
+    color: $font-color;
 }
