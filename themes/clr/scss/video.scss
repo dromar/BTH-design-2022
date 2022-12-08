@@ -1,0 +1,24 @@
+.embed-video {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    padding-bottom: 56.25%;
+    margin: $magic-number;
+}
+
+.embed-video iframe,
+.embed-video object,
+.embed-video embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.analysdata {
+    max-width: 100%;
+    margin: $magic-number;
+    width: 75vw;
+}

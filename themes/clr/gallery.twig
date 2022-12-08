@@ -1,0 +1,20 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+
+    <div class="main" role="main">
+
+        <div class="gallery">
+          {{ content }}
+        </div>
+
+    </div>
+    <div class="embed-video">
+        <iframe width="900" height="720" src="https://www.youtube.com/embed/vVlVU4wrm9o" title="How to steal a Baby Panda" frameborder="0" allowfullscreen>
+        </iframe>
+    </div>
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>

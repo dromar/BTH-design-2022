@@ -4,10 +4,19 @@ body {
 
 
 .main {
-    min-height: 70vh;
+    min-height: 200vh;
     margin-bottom: auto;
+    overflow: auto;
 }
 
 li {
     color: $font-color;
 }
+
+img,
+embed,
+object,
+video {
+    max-width: 100%;
+}
+
