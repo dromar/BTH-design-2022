@@ -13,12 +13,14 @@ p {
     margin-bottom: $magic-number;
     color: $font-color;
     font-family: 'Merriweather', serif;
+    text-align: justify;
 
 }
 
 h1 {
     font-size: 3em;
     margin-bottom: $magic-number;
+    margin-top: $magic-number;
     font-family: 'Roboto', sans-serif;
     color: $font-color;
 }
@@ -34,9 +36,10 @@ body {
 }
 
 .main {
+    margin-top: $magic-number;
     max-width: 67rem;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 12rem;
+    padding-right: 12rem;
     margin: 0 auto;
 }
 

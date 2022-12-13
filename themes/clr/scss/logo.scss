@@ -1,7 +1,9 @@
 .logo {
     filter: grayscale(30%);
     padding-left: 1.5rem;
-    padding-right: 5rem;
+    padding-right: 16rem;
+    margin-top: $magic-number;
+    margin-bottom: $magic-number;
 
     a {
         text-decoration: none;
@@ -15,10 +17,16 @@
 
 }
 @media (max-width: 1000px) {
+    .logo {
+        padding-left: 2rem;
+        padding-right: 1rem;
+    }
+
     .title {
         padding-left: 1.5rem;
-        padding-right: 2rem;
+        padding-right: 10rem;
 
+        
         h1 {
             font-size: 1.5em;
         } 
@@ -28,7 +36,18 @@
 
 @media (max-width: 700px) {
     .site-header {
-        flex-direction: column;
+        flex-direction: row;
+    }
+
+    .logo {
+        padding-left: 1.5rem;
+        padding-right: 16rem;
+        visibility: hidden;
+    }
+
+    .main {
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
 
     .title {
